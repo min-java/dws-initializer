@@ -13,7 +13,7 @@
 	</repositories>
 	<parent>
 		<groupId>io.spring.initializr</groupId>
-		<artifactId>initializr</artifactId>
+		<artifactId>dws-initializr</artifactId>
 		<version>0.6.0.RELEASE</version>
 	</parent>
 	<artifactId>dws-initializr-actuator</artifactId>
@@ -77,12 +77,12 @@
 			<type>test-jar</type>
 			<scope>test</scope>
 		</dependency> -->
-	<!-- 	<dependency>
+		<dependency>
 			<groupId>io.spring.initializr</groupId>
 			<artifactId>dws-initializr-web</artifactId>
 			<version>0.6.0.RELEASE</version>
 			<scope>test</scope>
-		</dependency> -->
+		</dependency>
 		<dependency>
 			<groupId>io.spring.initializr</groupId>
 			<artifactId>dws-initializr-web</artifactId>

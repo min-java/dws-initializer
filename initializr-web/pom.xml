@@ -14,7 +14,7 @@
 	</repositories>
 	<parent>
 		<groupId>io.spring.initializr</groupId>
-		<artifactId>initializr</artifactId>
+		<artifactId>dws-initializr</artifactId>
 		<version>0.6.0.RELEASE</version>
 	</parent>
 	<artifactId>dws-initializr-web</artifactId>
