@@ -239,7 +239,6 @@
 							<include>**/*Tests.java</include>
 						</includes>
 						<excludes>
-						<exclude>io.spring.initializr.generator.*Tests.java</exclude>
 							<exclude>**/Abstract*.java</exclude>
 							<exclude>**/*SmokeTests.java</exclude>
 						</excludes>
