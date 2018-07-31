@@ -41,7 +41,6 @@
 		<java.version>1.8</java.version>
 		<main.basedir>${basedir}</main.basedir>
 		<spring-javaformat.version>0.0.3</spring-javaformat.version>
-		<disable.checks>true</disable.checks>
 	</properties>
 
 	<modules>
@@ -240,6 +239,7 @@
 							<include>**/*Tests.java</include>
 						</includes>
 						<excludes>
+						<exclude>io.spring.initializr.generator.*Tests.java</exclude>
 							<exclude>**/Abstract*.java</exclude>
 							<exclude>**/*SmokeTests.java</exclude>
 						</excludes>
